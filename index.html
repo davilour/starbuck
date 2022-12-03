@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Imagens/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" class="logo" />
+    <title>Starbucks</title>
+  </head>
+
+  <div class="circulo"></div>
+
+  <body>
+    <img src="./Imagens/logo.png" alt="Logo Starbucks" />
+
+    <div class="conteudo">
+      <div class="texto">
+        <h1>
+          It's not just a Coffee <br />
+          It's <span>Starbucks</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+          <br />
+          recusandae asperiores inventore excepturi dicta rem sunt voluptate.
+          <br />
+          Optio itaque cupiditate voluptatum eaque voluptatem ipsa aspernatur,
+          <br />
+          delectus aut minus beatae explicabo!
+        </p>
+        <a href="https://youtu.be/UzWkRjATwFQ" class="botao">Veja Mais</a>
+      </div>
+
+      <div class="caixa-copao">
+        <img src="./Imagens/img1.png" alt="Copão" class="Copao" />
+      </div>
+    </div>
+
+    <div class="menu">
+      <img
+        src="./Imagens/thumb1.png"
+        alt="Copo 1"
+        class="botaomenu"
+        onclick="TrocaImagem('./Imagens/img1.png'); TrocaCor('#017143')"
+      />
+      <img
+        src="./Imagens/thumb2.png"
+        alt="Copo 2"
+        class="botaomenu"
+        onclick="TrocaImagem('./Imagens/img2.png'); TrocaCor('#eb7495')"
+      />
+      <img
+        src="./Imagens/thumb3.png"
+        alt="Copo 3"
+        class="botaomenu"
+        onclick="TrocaImagem('./Imagens/img3.png'); TrocaCor('#d752b1')"
+      />
+    </div>
+  </body>
+
+  <script src="scripts.js"></script>
+</html>

@@ -1,0 +1,96 @@
+/*Corpo e tudo*/
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* GERAL */
+h1 {
+  color: #333;
+  font-size: 60px;
+  font-weight: 500;
+}
+span {
+  color: #017143;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px; /*Marge que fica por fora para criar espaçamento*/
+}
+
+.botao {
+  font-size: 15px;
+  background: #017143; /*Cor do fundo*/
+  color: white; /*Cor da fonte*/
+  border-radius: 40px; /*Bordas arredondadas*/
+  border: none; /*Sem boras*/
+  cursor: pointer; /*Ponteiro cursor*/
+  padding: 10px; /*espaçamento interno*/
+  margin-top: 10px; /*Margem dentro do botao*/
+}
+
+.conteudo {
+  width: 100%; /*Largura*/
+  display: flex; /*Mudar as posições dos elementos*/
+  justify-content: space-between; /*Criar um espaço entre*/ /*SPACE BETWEEN*/
+  align-items: center; /*Alinhar componentes vertical*/
+}
+
+.texto {
+  width: 600px; /*Largura*/
+}
+
+.caixa-copao {
+  display: flex;
+  width: 400px;
+  justify-content: right; /*Faz alinhamentos na horizontal*/
+  margin-top: 180px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.Copao {
+  width: 300px; /*Largura*/
+}
+
+.logo {
+  display: flex;
+  width: 80px; /*Largura*/
+}
+
+.botaomenu {
+  padding-top: 40px;
+  width: 70px;
+  transition: 500ms;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.botaomenu:hover {
+  transform: translateY(-20px);
+}
+
+.circulo {
+  position: absolute; /*Permite colocar algo em uma posição absoluta */
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  top: 0;
+  left: 0;
+  clip-path: circle(600px at right 700px);
+  z-index: -1;
+}
